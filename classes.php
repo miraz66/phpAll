@@ -13,12 +13,14 @@ require_once('./test/Transactions.php');
 //     ->applyDiscount(10)
 //     ->getAmount();
 
-$amount1 = (new Transactions(100, "hello world"))
+$amount1 = (new Transactions(100, " Translation 1"))
     ->addTax(8)
-    ->applyDiscount(10);
+    ->applyDiscount(10)
+    ->getAmount();
     
-$amount2 = (new Transactions(100, "hello world"))
+$amount2 = (new Transactions(100, " Translation 2"))
     ->addTax(8)
-    ->applyDiscount(15);
+    ->applyDiscount(15)
+    ->getAmount();
 
-var_dump($amount1->getAmount(), $amount2->getAmount());
+var_dump($amount1, $amount2);

@@ -110,3 +110,13 @@ echo $multipleArray["php"]['versions'][1]['release7']; */
 // ksort($array);
 // print_r($array);
 
+
+// ----------------------------------------------------------------
+//array to object
+$array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+$object = (object) $array;
+$obj = (object) false;
+var_dump($object->{1});
+
+$obj = (object) null;
+var_dump($obj);

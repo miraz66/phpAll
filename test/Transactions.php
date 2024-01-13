@@ -41,4 +41,8 @@ class Transactions {
     }
 
     public function getAmount(): float { return $this ->amount; }
+
+    public function __destruct() { 
+        echo "Destruct" . $this->description . "\n";
+    }
 }
