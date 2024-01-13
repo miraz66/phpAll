@@ -18,6 +18,7 @@ $amount = (new Transaction(5, "hello"))
     ->addTax(10)
     ->getAmount();
 
+
 var_dump($amount);
 var_dump($amount);
 var_dump($amount);
