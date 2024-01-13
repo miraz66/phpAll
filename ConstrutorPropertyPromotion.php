@@ -19,3 +19,4 @@ $amount = (new Transaction(5, "hello"))
     ->getAmount();
 
 var_dump($amount);
+var_dump($amount);
