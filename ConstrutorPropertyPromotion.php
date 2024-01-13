@@ -21,3 +21,4 @@ $amount = (new Transaction(5, "hello"))
 var_dump($amount);
 var_dump($amount);
 var_dump($amount);
+var_dump($amount);
