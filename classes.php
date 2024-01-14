@@ -39,3 +39,4 @@ require_once('./test/NameSpace.php');
 var_dump(new Name());
 var_dump(new Name());
 var_dump(new Name());
+var_dump(new Name());
