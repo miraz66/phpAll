@@ -45,3 +45,4 @@ var_dump(new Name());
 var_dump(new Name());
 var_dump(new Name());
 var_dump(new Name());
+var_dump(new Name());
