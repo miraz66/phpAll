@@ -37,5 +37,6 @@ var_dump($amount1, $amount2); */
 require_once('./test/NameSpace.php');
 echo'Hello World ! ';
 echo'Hello World ! ';
+echo'Hello World ! ';
 
 var_dump(new Name());
