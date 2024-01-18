@@ -34,7 +34,11 @@ var_dump($amount1, $amount2); */
 
 // ----------------------------------------------------------------
 // Name Spaces.
-require_once('./test/NameSpace.php');
-use Customer\Name; // name space declaration
+// require_once('./test/NameSpace.php');
+// use Customer\Name; // name space declaration
 
-var_dump(new Name());
+// var_dump(new Name());
+
+// ----------------------------------------------------------------
+use App\DB;
+$db = new DB();
