@@ -1,6 +1,9 @@
 <?php
+// use App\PaymentGateway\Paddle\Transaction2;
 // Classes & objects
 require_once('./test/Transactions.php');
+require_once('./test/Toaster.php');
+require_once('./test/ToasterPro.php');
 require_once('./test/Transaction.php');
 require_once('./test/Customer.php');
 require_once('./test/PaymentProfile.php');
@@ -44,3 +47,15 @@ var_dump($amount1, $amount2); */
 // $db = new DB();
 
 // ----------------------------------------------------------------
+// $transaction2 = new Transaction2(25);
+// $transaction2->process();
+
+//----------------------------------------------------------------
+use App\ToasterPro;
+
+$toaster = new ToasterPro();
+$toaster->addSlice('bread 1');
+$toaster->addSlice('bread 2');
+$toaster->addSlice('bread 3');
+$toaster->toastBagel();
+$toaster->toast();
