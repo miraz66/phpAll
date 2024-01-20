@@ -3,8 +3,13 @@
 namespace App;
 
 class Toaster {
-    public array $slices = [];
-    public int $sizes = 2;
+    protected array $slices = [];
+    protected int $sizes;
+
+    public function __construct() { 
+        $this->slices = [];
+        $this->sizes = 2;
+    }
 
     public function addSlice(string $slice): void {
         if(count($this->slices) < $this->sizes) {
