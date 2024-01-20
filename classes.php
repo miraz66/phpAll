@@ -64,5 +64,6 @@ $toaster->addSlice('bread 3');
 $toaster->addSlice('bread 3');
 $toaster->addSlice('bread 3');
 $toaster->addSlice('bread 3');
+$toaster->addSlice('bread 3');
 $toaster->toastBagel();
 $toaster->toast();
