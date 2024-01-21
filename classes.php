@@ -58,8 +58,6 @@ $toaster->addSlice('bread 1');
 $toaster->addSlice('bread 1');
 $toaster->addSlice('bread 2');
 $toaster->addSlice('bread 3');
-$toaster->addSlice('bread 3');
-$toaster->addSlice('bread 3');
 
 $toaster->toastBagel();
 $toaster->toast();
